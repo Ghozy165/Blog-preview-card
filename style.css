@@ -113,12 +113,14 @@ p {
 .blog-title {
     width: fit-content;
 }
-.blog-title > p {
+.blog-title > a {
     font-family: var(--font-figtree-xbold);
+    color: var(--gray-950);
     font-size: 20px;
     line-height: 1.5;
+    text-decoration: none;
 }
-.blog-title > p:hover {
+.blog-title > a:hover {
     color: var(--yellow);
 }
 
@@ -165,7 +167,7 @@ p {
     p {
         max-width: 336px;
     }
-    .blog-title > p {
+    .blog-title > a {
         font-family: var(--font-figtree-xbold);
         font-size: 24px;
         line-height: 1.5;
